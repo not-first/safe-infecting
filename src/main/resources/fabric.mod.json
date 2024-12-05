@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "safe-infecting",
+	"version": "${version}",
+	"name": "Safe Infecting",
+	"description": "Infect villagers without them dying, 100% of the time, on any difficulty.",
+	"authors": [
+		"faker"
+	],
+	"contact": {
+		"discord": "fakerer"
+	},
+	"license": "MIT",
+	"icon": "assets/safe-infecting/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"faker.safeinfecting.SafeInfecting"
+		]
+	},
+	"mixins": [
+		"safe-infecting.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": ">=1.20",
+		"java": ">=21",
+		"fabric-api": ">=0.83.0"
+	}
+}
