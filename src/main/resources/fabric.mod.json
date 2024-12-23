@@ -12,7 +12,7 @@
 	},
 	"license": "MIT",
 	"icon": "assets/safe-infecting/icon.png",
-	"environment": "client",
+	"environment": "server",
 	"entrypoints": {
 		"main": [
 			"faker.safeinfecting.SafeInfecting"
