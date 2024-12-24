@@ -6,7 +6,7 @@ This can be heavily inconvenient for players who simply wish for guaranteed infe
 
 This lightweight mod guarantees villager infection on any difficulty, removing the chance of death.
 
-Support for 1.20.x versions, and 1.21-1.12.3 minecraft versions. The mod only has to be installed on the server.
+Support for 1.21.x minecraft versions. The mod only has to be installed on the server.
 
 ### Technical Description
 The mod uses fabric mixins, to edit the Zombie entity class.
