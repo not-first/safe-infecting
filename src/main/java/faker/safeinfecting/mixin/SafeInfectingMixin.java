@@ -9,15 +9,15 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 
 @Mixin(ZombieEntity.class)
 public class SafeInfectingMixin {
-    @Redirect(
-            method = "onKilledOther",
-            at = @At(
-                    value = "INVOKE",
-                    target = "Lnet/minecraft/server/world/ServerWorld;getDifficulty()Lnet/minecraft/world/Difficulty;"
-            )
-    )
-    // hard mode has a 100% chance of conversion, so replace the difficulty check with a constant return of hard
-    private Difficulty alwaysReturnHard(ServerWorld instance) {
-        return Difficulty.HARD;
-    }
+	@Redirect(
+			method = "onKilledOther",
+			at = @At(
+					value = "INVOKE",
+					target = "Lnet/minecraft/server/world/ServerWorld;getDifficulty()Lnet/minecraft/world/Difficulty;"
+			)
+	)
+	// hard mode has a 100% chance of conversion, so replace the difficulty check with a constant return of hard
+	private Difficulty alwaysReturnHard(ServerWorld instance) {
+		return Difficulty.HARD;
+	}
 }
