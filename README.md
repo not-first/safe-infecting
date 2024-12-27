@@ -1,5 +1,5 @@
 # Safe Infecting
-_Infect villagers without them dying, 100% of the time, on any difficulty._
+_A minecraft mod that allows you to infect villagers without them dying, 100% of the time, on any difficulty._
 
 In vanilla minecraft, villagers have a chance of dying when being killed by a zombie, instead of being infected. Only on hard difficulty is villager infection guaranteed.
 This can be heavily inconvenient for players who simply wish for guaranteed infection without wanting to play on hard difficulty constantly.
