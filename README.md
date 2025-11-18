@@ -6,9 +6,9 @@ This can be heavily inconvenient for players who simply wish for guaranteed infe
 
 This lightweight mod guarantees villager infection on any difficulty, removing the chance of death.
 
-Supports 1.21.x minecraft versions. The mod only has to be installed on the server.
+The mod only has to be installed on the server, and works on singleplayer.
 
-### Technical Description
+### How it Works
 The mod uses fabric mixins, to edit the Zombie entity class.
 When a zombie kills a villager, the onKilledOther zombie method is triggered, which makes a call to check the world difficulty.
 The mod simply replaces this call with a method that returns the difficulty hard.
