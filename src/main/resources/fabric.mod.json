@@ -22,8 +22,8 @@
 		"safe-infecting.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.9",
-		"minecraft": ">=1.21",
+		"fabricloader": ">=0.17.3",
+		"minecraft": ">=1.21.7",
 		"java": ">=21",
 		"fabric-api": "*"
 	}
